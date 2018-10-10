@@ -1,0 +1,46 @@
+canvas {
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: -1;
+}
+
+
+#brush-menu {
+    width: 30px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ccc;
+    margin:10px;
+}
+
+.brush-icon {
+    width: 100%;
+    border: 3px inset #000000;
+    box-sizing: border-box;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.brush-icon:hover {
+    background-color: #ff00ff;
+}
+
+
+#filters {
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ccc;
+    margin: 10px;
+}
+
+.filter-item {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.filter-item:hover {
+    color:#ff00ff;
+}
