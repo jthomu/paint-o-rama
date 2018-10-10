@@ -1,7 +1,7 @@
 # paint-o-rama
 collaborative class drawing app
 
-### setup instructions
+## setup instructions
 
 1. click on the green "clone or download" button && copy the URL to clone this project. in ur terminal enter:
 ```bash
@@ -21,9 +21,9 @@ python -m SimpleHTTPServer
 localhost:8000
 ```
 
-### assignment
+## assignment
 
-##### option 1: create a brush
+### option 1: create a brush
 
 create a js file in the `js/brushes` folder for ur brush. in that file u must have at least one function named after ur brush which takes only 2 arguments, an **x** value && a **y** value, for example, the file `js/brushes/basicPen.js`
 ```js
@@ -51,7 +51,7 @@ else if(currentBrush=="urBrushFunctionName"){
 }
 ```
 
-##### option 2: create a filter
+### option 2: create a filter
 
 create a js file in the `js/filters` folder for ur filter. in that file u must have at least one function named after ur filter effect. this function shouldn't take any arguments. for example, consider the file `js/filters/desaturate.js`
 ```js
@@ -90,6 +90,6 @@ else if(filterName=="filterFunctionName"){
 }
 ```
 
-##### option 3: propose something else
+### option 3: propose something else
 
 do those tasks sound to basic to u? do u have another much more interesting idea for functionality u could add to our drawing app? if so propose an alternative feature (either in class or via email) && we can chat through what it would look like to implement it.
